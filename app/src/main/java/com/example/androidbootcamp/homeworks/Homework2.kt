@@ -9,6 +9,7 @@ fun celsiusToFahrenheit(celsius: Double) {
 fun calculateRectanglePerimeter(length: Int, width: Int) {
     var printPerimeter = println(2 * (length + width))
     return printPerimeter
+
 }
 
 fun calculateFactorial(number: Int): Int {
@@ -64,5 +65,5 @@ fun main() {
     println(calculateCharInWords("Dağlarda", 'a'))
     println(calculateInteriorAngleSum(5))
     println(calculateSalary(25))
-    println(calculateInternetBill(60.0))
+    println(calculateInternetBill(70.0))
 }
